@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="main">
+      <!-- ---------header------------ -->
+      <header>
+        <div id="img-logo">
+          <img src="./assets/images/logo.svg" class="logo-w" />
+        </div>
+        <div>
+          <img src="./assets/images/icon-menu.svg" id="icon-menu" />
+          <div class="ul-close">
+            <img src="./assets/images/icon-menu-close.svg" id="icon-close" />
+            <ul>
+              <li><a href="#main">Home</a></li>
+              <li><a href="#new">New</a></li>
+              <li><a href="#popular">Popular</a></li>
+              <li><a href="#trending">Trending</a></li>
+              <li><a href="#categories">Categories</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- -----main on medium position -------- -->
+      <div class="main-new">
+        <div>
+          <img
+            src="./assets/images/image-web-3-desktop.jpg"
+            class="top-img-desk"
+          />
+          <img
+            src="./assets/images/image-web-3-mobile.jpg"
+            width="300"
+            class="top-img-mob"
+          />
+          <div class="h1-p-btn">
+            <h1>The Bright Future of Web 3.0?</h1>
+            <div>
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="new" id="new">
+          <h2>New</h2>
+          <h4>Hydrogen VS Electric Cars</h4>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr />
+          <h4>The Downsides of AI Artistry</h4>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+          <hr />
+          <h4>Is VC Funding Drying Up?</h4>
+          <p>
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </div>
+      <!-- ------ bottom the three ------------ -->
+      <div class="bottom-main">
+        <div class="bottom-img-para" id="popular">
+          <img src="./assets/images/image-retro-pcs.jpg" class="jpg" />
+          <div class="h4-para">
+            <span>01</span>
+            <h4>Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="bottom-img-para" id="trending">
+          <img src="./assets/images/image-top-laptops.jpg" class="jpg" />
+          <div class="h4-para">
+            <span>02</span>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="bottom-img-para third" id="categories">
+          <img src="./assets/images/image-gaming-growth.jpg" class="jpg" />
+          <div class="h4-para">
+            <span>03</span>
+            <h4>The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
